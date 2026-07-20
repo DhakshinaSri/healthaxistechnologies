@@ -1,7 +1,9 @@
+import ContactUsPage from "@/components/contact-components/ContactUsPage";
+
 export default function Contact() {
   return (
     <div className="pt-20">
-        <h1 className="text-4xl font-bold mb-4">Contact Us Page Coming Soon</h1>
+      <ContactUsPage />
     </div>
   );
 }
