@@ -164,7 +164,7 @@ export default function HeroSection() {
               initial={{ y: 100 }}
               animate={{ y: mounted ? 0 : 100 }}
               transition={{ duration: 0.95, delay: 0.32, ease: [0.16, 1, 0.3, 1] }}
-              className="text-[clamp(2.8rem,7vw,5.8rem)] font-extrabold leading-none tracking-tight"
+              className="text-[clamp(2.8rem,5.5vw,5.2rem)] font-extrabold leading-none tracking-tight"
               style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", color: NAVY }}
             >
               Driving the Future
@@ -175,7 +175,7 @@ export default function HeroSection() {
               initial={{ y: 100 }}
               animate={{ y: mounted ? 0 : 100 }}
               transition={{ duration: 0.95, delay: 0.44, ease: [0.16, 1, 0.3, 1] }}
-              className="text-[clamp(2.8rem,7vw,5.8rem)] font-extrabold leading-none tracking-tight"
+              className="text-[clamp(2.8rem,5.5vw,5.2rem)] font-extrabold leading-none tracking-tight"
               style={{
                 fontFamily: "'Plus Jakarta Sans', sans-serif",
                 background: `linear-gradient(120deg, ${BLUE} 0%, ${TEAL} 100%)`,
