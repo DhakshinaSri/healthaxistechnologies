@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root[data-theme='dark'] {
+  font-family: Mulish, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Mulish', sans-serif;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+
+@keyframes partners-marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* move by one set width */
+}
+.animate-partners-marquee {
+  animation: partners-marquee 18s linear infinite;
+}
+
+.animate-spin-slow:hover {
+  animation-play-state: paused;
+}
+
+/* styles.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
